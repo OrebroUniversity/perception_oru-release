@@ -1,0 +1,12 @@
+Source: ros-groovy-ndt-fuser
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-laser-geometry, ros-groovy-ndt-map, ros-groovy-ndt-registration, ros-groovy-ndt-visualisation, ros-groovy-sensor-msgs
+Homepage: http://ros.org/wiki/ndt_fuser
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ndt-fuser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-laser-geometry, ros-groovy-ndt-map, ros-groovy-ndt-registration, ros-groovy-ndt-visualisation, ros-groovy-sensor-msgs
+Description: ndt_fuser
