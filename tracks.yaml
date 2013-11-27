@@ -12,7 +12,7 @@ tracks:
     last_version: 1.0.2
     name: upstream
     patches: null
-    release_inc: '1'
+    release_inc: '2'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: groovy
