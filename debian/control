@@ -1,0 +1,12 @@
+Source: ros-groovy-ndt-visualisation
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libmrpt-dev, ros-groovy-catkin, ros-groovy-ndt-map, ros-groovy-pcl
+Homepage: http://ros.org/wiki/ndt_visualization
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ndt-visualisation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmrpt-dev, ros-groovy-ndt-map, ros-groovy-pcl
+Description: Contains classes for creating an ndt visualization window. Initial implementation on top of mrpt.
