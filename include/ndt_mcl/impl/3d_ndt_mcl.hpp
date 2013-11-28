@@ -5,14 +5,14 @@
 #include <pcl/point_cloud.h>
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
-#include <ndt_map.h>
-#include <ndt_cell.h>
-#include <pointcloud_utils.h>
 #include <cstdio>
 #include <Eigen/Eigen>
 #include <Eigen/Geometry>
 #include <fstream>
-#include "ParticleFilter3D.h"
+#include <ndt_map/ndt_map.h>
+#include <ndt_map/ndt_cell.h>
+#include <pointcloud_vrml/pointcloud_utils.h>
+#include "ndt_mcl/ParticleFilter3D.h"
 
 /**
 * NDT MCL - Class implementation
