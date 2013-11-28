@@ -35,13 +35,14 @@
 #ifndef NDT_MAP_HH
 #define NDT_MAP_HH
 
-#include <spatial_index.h>
-#include <ndt_cell.h>
-#include <depth_camera.h>
-#include <set>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/ndt_cell.h>
+#include <ndt_map/depth_camera.h>
+#include <ndt_map/lazy_grid.h>
 
+#include <set>
 #include <cstdlib>
-#include <lazy_grid.h>
+
 #include <cv.h>
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
@@ -475,6 +476,6 @@ public:
 
 } // end namespace
 
-#include <impl/ndt_map.hpp>
+#include <ndt_map/impl/ndt_map.hpp>
 
 #endif

@@ -35,18 +35,19 @@
 #ifndef NDT_MAP_HMT_HH
 #define NDT_MAP_HMT_HH
 
-#include <ndt_map.h>
-#include <spatial_index.h>
-#include <ndt_cell.h>
-#include <depth_camera.h>
+#include <ndt_map/ndt_map.h>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/ndt_cell.h>
+#include <ndt_map/depth_camera.h>
+#include <ndt_map/lazy_grid.h>
 
 #include <cstdlib>
-#include <lazy_grid.h>
 #include <cv.h>
-#include <pcl/point_cloud.h>
-#include <pcl/point_types.h>
 #include <sys/stat.h>
 #include <sys/dir.h>
+
+#include <pcl/point_cloud.h>
+#include <pcl/point_types.h>
 
 namespace lslgeneric
 {
@@ -295,6 +296,6 @@ public:
 
 } // end namespace
 
-#include <impl/ndt_map_hmt.hpp>
+#include <ndt_map/impl/ndt_map_hmt.hpp>
 
 #endif

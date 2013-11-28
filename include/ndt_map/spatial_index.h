@@ -36,8 +36,9 @@
 #define SPATIAL_INDEX_HH
 
 #include <vector>
-#include <cell.h>
 #include <iostream>
+
+#include <ndt_map/cell.h>
 
 namespace lslgeneric
 {

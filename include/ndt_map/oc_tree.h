@@ -35,8 +35,9 @@
 #ifndef OCT_TREE_HH
 #define OCT_TREE_HH
 
-#include <spatial_index.h>
-#include <ndt_cell.h>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/ndt_cell.h>
+
 #include <vector>
 #include <cstdio>
 #include <Eigen/Core>
@@ -159,6 +160,6 @@ public:
 
 } //end namespace
 
-#include<impl/oc_tree.hpp>
+#include<ndt_map/impl/oc_tree.hpp>
 
 #endif
