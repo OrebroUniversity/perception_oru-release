@@ -35,7 +35,7 @@
 #ifndef NDT_MATCHER_SEQUENTIAL_D2D_HH
 #define NDT_MATCHER_SEQUENTIAL_D2D_HH
 
-#include "ndt_map.h"
+#include "ndt_map/ndt_map.h"
 #include "pcl/point_cloud.h"
 #include "Eigen/Core"
 
@@ -157,5 +157,5 @@ public:
 
 } // end namespace
 
-#include <impl/ndt_matcher_sequential_d2d.hpp>
+#include <ndt_registration/impl/ndt_matcher_sequential_d2d.hpp>
 #endif

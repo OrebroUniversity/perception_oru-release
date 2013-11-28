@@ -35,7 +35,7 @@
 #ifndef NDTMATCHERFEATUREF2F_HH
 #define NDTMATCHERFEATUREF2F_HH
 
-#include <ndt_matcher_d2d.h>
+#include <ndt_registration/ndt_matcher_d2d.h>
 namespace lslgeneric
 {
 /**
@@ -114,6 +114,6 @@ protected:
 };
 } // namespace
 
-#include <impl/ndt_matcher_d2d_feature.hpp>
+#include <ndt_registration/impl/ndt_matcher_d2d_feature.hpp>
 
 #endif
