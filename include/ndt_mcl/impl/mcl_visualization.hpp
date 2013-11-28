@@ -79,7 +79,7 @@ void addScanToScene(mrpt::opengl::COpenGLScenePtr scene, Eigen::Vector3d orig, p
 
 void addPointCloud2Scene(mrpt::opengl::COpenGLScenePtr scene, pcl::PointCloud<pcl::PointXYZ>::Ptr points){
 	gl_points->clear();
-	fprintf(stderr,"Conflict Points Size = %d\n",points->size());
+	fprintf(stderr,"Conflict Points Size = %lu\n",points->size());
 	for(unsigned int i=0;i<points->size();i++){
 		gl_points->push_back(points->points[i].x, points->points[i].y, points->points[i].z,0,1.0,1.0) ;
 	}

@@ -4,17 +4,16 @@
 #include <pcl/point_cloud.h>
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
-#include <ndt_map.h>
-#include <ndt_cell.h>
-#include <pointcloud_utils.h>
 #include <tf_conversions/tf_eigen.h>
-#include "CParticleFilter.h"
-#include <pointcloud_utils.h>
 #include <cstdio>
 #include <Eigen/Eigen>
 #include <Eigen/Geometry>
 #include <fstream>
 
+#include <ndt_map/ndt_map.h>
+#include <ndt_map/ndt_cell.h>
+#include <pointcloud_vrml/pointcloud_utils.h>
+#include "ndt_mcl/CParticleFilter.h"
 /**
 * NDT MCL - Class implementation
 */
@@ -62,7 +61,7 @@ class NDTMCL{
 				
 				std::vector<lslgeneric::NDTCell<PointT>*> ndts;
 				ndts = nd_map.getAllCells();
-				fprintf(stderr,"NDT MAP with %d components",ndts.size());
+				fprintf(stderr,"NDT MAP with %lu components",ndts.size());
 				for(unsigned int i=0;i<ndts.size();i++){
 					Eigen::Vector3d m = ndts[i]->getMean();	
 					if(m[2]>zfilter){

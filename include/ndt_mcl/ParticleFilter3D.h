@@ -12,8 +12,8 @@
 #include <string.h>
 #include <vector>
 #include <Eigen/Core>
-#include "PoseParticle.h" 
-#include "ownRandom.h"
+#include "ndt_mcl/PoseParticle.h" 
+#include "ndt_mcl/ownRandom.h"
 
 
 class ParticleFilter3D{
@@ -70,6 +70,6 @@ private:
 
 };
 
-#include "ParticleFilter3D.hpp"
+#include "ndt_mcl/impl/ParticleFilter3D.hpp"
 
 #endif
