@@ -41,9 +41,9 @@
 #ifndef NDT_OCCUPANCY_MAP_HH
 #define NDT_OCCUPANCY_MAP_HH
 
-#include <spatial_index.h>
-#include <ndt_cell.h>
-#include <depth_camera.h>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/ndt_cell.h>
+#include <ndt_map/depth_camera.h>
 
 #include <cstdlib>
 
@@ -177,6 +177,6 @@ public:
 
 } // end namespace
 
-#include <impl/ndt_occupancy_map.hpp>
+#include <ndt_map/impl/ndt_occupancy_map.hpp>
 
 #endif

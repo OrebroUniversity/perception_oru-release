@@ -35,9 +35,9 @@
 #ifndef NDT_CELL_HH
 #define NDT_CELL_HH
 
-#include <spatial_index.h>
-#include <cell.h>
-#include<impl/EventCounterData.hpp>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/cell.h>
+#include <ndt_map/impl/EventCounterData.hpp>
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <vector>
@@ -409,6 +409,6 @@ public:
 };
 };
 
-#include<impl/ndt_cell.hpp>
+#include<ndt_map/impl/ndt_cell.hpp>
 
 #endif

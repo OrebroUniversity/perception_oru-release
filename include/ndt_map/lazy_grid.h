@@ -35,10 +35,8 @@
 #ifndef LSL_LAZZY_GRID_HH
 #define LSL_LAZZY_GRID_HH
 
-#include <spatial_index.h>
-#include <ndt_cell.h>
-//#include <pcl/kdtree/kdtree_ann.h>
-//#include <pcl/kdtree/kdtree_flann.h>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/ndt_cell.h>
 
 namespace lslgeneric
 {
@@ -161,6 +159,6 @@ protected:
 
 
 }; //end namespace
-#include<impl/lazy_grid.hpp>
+#include<ndt_map/impl/lazy_grid.hpp>
 
 #endif
