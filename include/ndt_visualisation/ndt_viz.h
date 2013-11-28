@@ -5,8 +5,8 @@
 #include <mrpt/base.h>
 #include <mrpt/opengl.h>
 
-#include <ndt_map.h>
-#include <CMyEllipsoid.h>
+#include <ndt_map/ndt_map.h>
+#include <ndt_visualisation/CMyEllipsoid.h>
 
 #warning "ALWAYS PLACE THE ndt_viz.h BEFORE THE ROS HEADERS!!!"
 
@@ -103,7 +103,7 @@ class NDTViz {
 	    mrpt::opengl::COpenGLScenePtr &scene = win3D->get3DSceneAndLock();
 	    unsigned int accepted_ndts=1;
 	    double x = 0,y=0,s=0;
-	    fprintf(stderr,"-NDT:%d-",global_ndts.size());
+	    fprintf(stderr,"-NDT:%lu-",global_ndts.size());
 	    for(unsigned int i=0;i<global_ndts.size();i++){
 		Eigen::Vector3d m = global_ndts[i]->getMean();
 		if(!global_ndts[i]->hasGaussian_) continue;
@@ -144,7 +144,7 @@ class NDTViz {
 	    if(win3D == NULL) return;
 	    std::vector<lslgeneric::NDTCell<PointT>*> global_ndts;
 	    global_ndts = map->getAllCells();
-	    fprintf(stderr," NUM NDT: %d ", global_ndts.size());
+	    fprintf(stderr," NUM NDT: %lu ", global_ndts.size());
 
 	    mrpt::opengl::COpenGLScenePtr &scene = win3D->get3DSceneAndLock();
 	    scene->clear();
@@ -198,7 +198,7 @@ class NDTViz {
 	    if(win3D == NULL) return;
 	    std::vector<lslgeneric::NDTCell<PointT>*> global_ndts;
 	    global_ndts = map->getAllCells();
-	    fprintf(stderr," NUM NDT: %d ", global_ndts.size());
+	    fprintf(stderr," NUM NDT: %lu ", global_ndts.size());
 
 	    Eigen::Vector3d cFlat, cInclined, cRough, cVert, cUnknown, color;
 	    cFlat<<0,0.9,0;
@@ -271,7 +271,7 @@ class NDTViz {
 	    if(win3D == NULL) return;
 	    std::vector<lslgeneric::NDTCell<PointT>*> global_ndts;
 	    global_ndts = map->getAllCells();
-	    fprintf(stderr," NUM NDT: %d ", global_ndts.size());
+	    fprintf(stderr," NUM NDT: %lu ", global_ndts.size());
 
 	    mrpt::opengl::COpenGLScenePtr &scene = win3D->get3DSceneAndLock();
 	    scene->clear();
@@ -310,7 +310,7 @@ class NDTViz {
 		    scene->insert( objEllip );*/
 		}
 	    }
-	    win3D->setCameraPointingToPoint(x/s,y/s,3.0);
+	    //win3D->setCameraPointingToPoint(x/s,y/s,3.0);
 	    win3D->unlockAccess3DScene();
 	    win3D->repaint();
 	    fprintf(stderr,"(%lf %lf) s=%lf\n",x/s,y/s,s);
