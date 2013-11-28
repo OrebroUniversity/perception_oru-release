@@ -35,9 +35,9 @@
 #ifndef ADAPTIVE_OCT_TREE_HH
 #define ADAPTIVE_OCT_TREE_HH
 
-#include <oc_tree.h>
+#include <ndt_map/oc_tree.h>
+#include <ndt_map/ndt_cell.h>
 #include <vector>
-#include <ndt_cell.h>
 
 namespace lslgeneric
 {
@@ -94,5 +94,5 @@ public:
 
 } //end namespace
 
-#include<impl/adaptive_oc_tree.hpp>
+#include<ndt_map/impl/adaptive_oc_tree.hpp>
 #endif

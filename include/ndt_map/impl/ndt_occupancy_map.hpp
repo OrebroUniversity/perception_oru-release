@@ -5,9 +5,9 @@
 #include <string>
 #include <climits>
 
-#include<oc_tree.h>
-#include<lazy_grid.h>
-#include<cell_vector.h>
+#include<ndt_map/oc_tree.h>
+#include<ndt_map/lazy_grid.h>
+#include<ndt_map/cell_vector.h>
 
 namespace lslgeneric
 {

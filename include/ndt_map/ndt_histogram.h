@@ -35,7 +35,7 @@
 #ifndef NDT_HISTOGRAM_HH
 #define NDT_HISTOGRAM_HH
 
-#include <ndt_map.h>
+#include <ndt_map/ndt_map.h>
 #include <vector>
 
 namespace lslgeneric
@@ -107,5 +107,5 @@ public:
 
 };
 
-#include <impl/ndt_histogram.hpp>
+#include <ndt_map/impl/ndt_histogram.hpp>
 #endif

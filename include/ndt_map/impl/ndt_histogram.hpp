@@ -1,4 +1,4 @@
-#include <pointcloud_utils.h>
+#include <pointcloud_vrml/pointcloud_utils.h>
 #include <pcl/registration/transformation_estimation_svd.h>
 
 namespace lslgeneric
