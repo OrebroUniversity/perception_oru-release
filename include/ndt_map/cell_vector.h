@@ -35,8 +35,8 @@
 #ifndef LSL_CELL_VECTOR_HH
 #define LSL_CELL_VECTOR_HH
 
-#include <spatial_index.h>
-#include <ndt_cell.h>
+#include <ndt_map/spatial_index.h>
+#include <ndt_map/ndt_cell.h>
 #include <pcl/kdtree/kdtree_flann.h>
 
 namespace lslgeneric
@@ -100,6 +100,6 @@ public:
 
 
 }; //end namespace
-#include <impl/cell_vector.hpp>
+#include <ndt_map/impl/cell_vector.hpp>
 
 #endif
