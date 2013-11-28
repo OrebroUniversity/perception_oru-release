@@ -1,6 +1,6 @@
-#include <ndt_matcher_p2d.h>
-#include <ndt_matcher_d2d.h>
-#include <ndt_histogram.h>
+#include <ndt_registration/ndt_matcher_p2d.h>
+#include <ndt_registration/ndt_matcher_d2d.h>
+#include <ndt_map/ndt_histogram.h>
 
 namespace lslgeneric
 {
@@ -84,4 +84,4 @@ private:
 };
 };
 
-#include <impl/ndt_map_builder.hpp>
+#include <ndt_map_builder/impl/ndt_map_builder.hpp>
