@@ -1,12 +1,12 @@
 #ifndef NDT_FUSER_HMT_HH
 #define NDT_FUSER_HMT_HH
 
-#include <ndt_viz.h>
-#include <ndt_map_hmt.h>
-#include <ndt_map.h>
-#include <ndt_matcher_d2d_2d.h>
-#include <ndt_matcher_d2d.h>
-#include <pointcloud_utils.h>
+#include <ndt_visualisation/ndt_viz.h>
+#include <ndt_map/ndt_map.h>
+#include <ndt_map/ndt_map_hmt.h>
+#include <ndt_registration/ndt_matcher_d2d_2d.h>
+#include <ndt_registration/ndt_matcher_d2d.h>
+#include <pointcloud_vrml/pointcloud_utils.h>
 
 #include <Eigen/Eigen>
 #include <pcl/point_cloud.h>
