@@ -55,8 +55,9 @@
 #ifndef NDT_MAP_MATCHER_D2D_2D_HH
 #define NDT_MAP_MATCHER_D2D_2D_HH
 
-#include "ndt_map.h"
+#include <ndt_map/ndt_map.h>
 #include <ndt_matcher_d2d_2d.h>
+
 #include "pcl/point_cloud.h"
 #include "Eigen/Core"
 

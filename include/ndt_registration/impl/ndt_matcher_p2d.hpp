@@ -1,9 +1,9 @@
 #include "Eigen/Eigen"
-#include "ndt_cell.h"
+#include "ndt_map/ndt_cell.h"
 #include <fstream>
 #include <vector>
-#include <lazy_grid.h>
-#include <oc_tree.h>
+#include <ndt_map/lazy_grid.h>
+#include <ndt_map/oc_tree.h>
 
 namespace lslgeneric
 {
