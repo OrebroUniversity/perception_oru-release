@@ -1,0 +1,24 @@
+ros-groovy-ndt-visualisation (1.0.7-2oneiric) oneiric; urgency=high
+
+  * Added release flags to all CMake files
+  * Re-organization of include files to follow ros convention, lots of changes
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 23:00:00 -0000
+
+ros-groovy-ndt-visualisation (1.0.3-2oneiric) oneiric; urgency=high
+
+  * rosdeps are now handled through catkin, hopefully mrpt as well
+  * CMake files fixed to output in the correct place
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Tue, 26 Nov 2013 23:00:00 -0000
+
+ros-groovy-ndt-visualisation (1.0.1-2oneiric) oneiric; urgency=high
+
+  * moved from rosbuild to catkin
+  * Contributors: Todor Stoyanov, Tomasz Kuncer
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Tue, 26 Nov 2013 23:00:00 -0000
+
+
