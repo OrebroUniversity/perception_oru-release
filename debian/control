@@ -1,0 +1,12 @@
+Source: ros-groovy-ndt-registration
+Section: misc
+Priority: extra
+Maintainer: Todor Stoyanov <todor.stoyanov@oru.se>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-ndt-map, ros-groovy-pcl, ros-groovy-pointcloud-vrml, ros-groovy-tf, ros-groovy-tf-conversions
+Homepage: http://ros.org/wiki/ndt_registration
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ndt-registration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ndt-map, ros-groovy-pcl, ros-groovy-pointcloud-vrml, ros-groovy-tf, ros-groovy-tf-conversions
+Description: Contains a new implementation of 3D NDT registration. Used to find the relative positions of two point clouds.
