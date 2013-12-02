@@ -2,6 +2,9 @@
 Changelog for package ndt_mcl
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.8 (2013-12-02)
+------------------
+
 1.0.7 (2013-11-28)
 ------------------
 * small modification to launch file to make seemless integration with ndt_fuser
