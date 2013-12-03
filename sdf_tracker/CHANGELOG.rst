@@ -2,7 +2,7 @@
 Changelog for package sdf_tracker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.11 (2013-12-03)
+1.0.12 (2013-12-03)
 -------------------
-* Added catkinized version for sdf tracker, experimental
+* Added catkinized sdf tracker in hydro
 * Contributors: Todor Stoyanov
