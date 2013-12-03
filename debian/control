@@ -1,0 +1,12 @@
+Source: ros-groovy-pointcloud-vrml
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-nav-msgs, ros-groovy-pcl, ros-groovy-pcl-ros, ros-groovy-rosconsole, ros-groovy-tf
+Homepage: http://ros.org/wiki/pointcloud_vrml
+Standards-Version: 3.9.2
+
+Package: ros-groovy-pointcloud-vrml
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-nav-msgs, ros-groovy-pcl, ros-groovy-pcl-ros, ros-groovy-rosconsole, ros-groovy-tf
+Description: pointcloud_vrml
