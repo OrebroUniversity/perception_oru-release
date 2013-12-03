@@ -2,6 +2,9 @@
 Changelog for package ndt_visualisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.11 (2013-12-03)
+-------------------
+
 1.0.9 (2013-12-03)
 ------------------
 * backward compatible CMyEllipsoid for ndt vis
