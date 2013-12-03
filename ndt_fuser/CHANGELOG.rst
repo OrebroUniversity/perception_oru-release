@@ -2,6 +2,9 @@
 Changelog for package ndt_fuser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.9 (2013-12-03)
+------------------
+
 1.0.8 (2013-12-02)
 ------------------
 * Removed legacy dependency to mrpt-graphslam
