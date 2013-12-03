@@ -1,0 +1,8 @@
+ros-hydro-sdf-tracker (1.0.12-0precise) precise; urgency=high
+
+  * Added catkinized sdf tracker in hydro
+  * Contributors: Todor Stoyanov
+
+ -- Daniel Canelhas <daniel.canelhas@oru.se>  Mon, 02 Dec 2013 23:00:00 -0000
+
+
