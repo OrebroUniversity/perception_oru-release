@@ -1,3 +1,31 @@
+## perception_oru - 1.0.12-0
+
+User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro hydro --track hydro perception_oru` on `Tue, 03 Dec 2013 16:04:14 -0000`
+
+These packages were released:
+- `ndt_fuser`
+- `ndt_map`
+- `ndt_map_builder`
+- `ndt_mcl`
+- `ndt_registration`
+- `ndt_visualisation`
+- `perception_oru`
+- `pointcloud_vrml`
+- `sdf_tracker`
+
+Version of package(s) in repository `perception_oru`:
+- rosdistro version: `1.0.11-0`
+- old version: `1.0.11-0`
+- new version: `1.0.12-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.24`
+- rosdep version: `0.10.24`
+- rosdistro version: `0.2.17`
+- vcstools version: `0.1.32`
+
+
 ## perception_oru - 1.0.11-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Tue, 03 Dec 2013 15:50:37 -0000`
