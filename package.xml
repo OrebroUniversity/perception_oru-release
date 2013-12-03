@@ -1,10 +1,11 @@
 <package>
   <name>ndt_fuser</name>
-  <version>1.0.11</version>
+  <version>1.0.12</version>
   <description>ndt_fuser</description>
 <maintainer email="jari.p.saarinen@gmail.com">Jari Saarinen</maintainer>
 <maintainer email="todor.stoyanov@oru.se">Todor Stoyanov</maintainer>
 <maintainer email="henrik.andreasson@oru.se">Henrik Andreasson</maintainer>
+  <maintainer email="tomasz.kucner@oru.se">Tomasz Kucner</maintainer>
 
   <license>BSD</license>
 
