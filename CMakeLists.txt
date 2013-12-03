@@ -62,7 +62,7 @@ target_link_libraries(ndt_fuser ${LIBXML2_LIBRARIES} ${GLUT_LIBRARIES} ${JPEG_LI
 
 # catkin_package parameters: http://ros.org/doc/groovy/api/catkin/html/dev_guide/generated_cmake_api.html#catkin-package
 # TODO: fill in what other packages will need to use this package
-install(TARGETS ndt_fuser ${PROJECT_NAME}
+install(TARGETS ndt_fuser
         ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
         LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -71,3 +71,13 @@ install(TARGETS ndt_fuser ${PROJECT_NAME}
 install(DIRECTORY include/${PROJECT_NAME}/
 	DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
        )
+install(FILES
+   launch/fuser_2dlaser.launch  
+   launch/fuser_hmt_vellodyne32.launch  
+   launch/fuser_velodyne32.launch  
+   launch/velo32.yaml
+   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+install(DIRECTORY maps/
+	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
