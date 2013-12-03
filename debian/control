@@ -1,0 +1,12 @@
+Source: ros-hydro-ndt-registration
+Section: misc
+Priority: extra
+Maintainer: Todor Stoyanov <todor.stoyanov@oru.se>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-ndt-map, ros-hydro-pointcloud-vrml, ros-hydro-tf, ros-hydro-tf-conversions
+Homepage: http://ros.org/wiki/ndt_registration
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ndt-registration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-ndt-map, ros-hydro-pointcloud-vrml, ros-hydro-tf, ros-hydro-tf-conversions
+Description: Contains a new implementation of 3D NDT registration. Used to find the relative positions of two point clouds.
