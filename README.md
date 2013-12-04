@@ -1,4 +1,27 @@
-## perception_oru - 1.0.12-0
+# Perception ORU
+
+## Instructions
+
+Clone the repository e.g
+
+```Shell
+git clone https://github.com/tstoyanov/perception_oru-release.git
+```
+
+Then, depending on which ros version you are using, check out the release with the relevant tags using either
+```Shell
+git checkout tags/release-groovy-source
+```
+or
+
+```Shell
+git checkout tags/release-hydro-source
+```
+
+## History
+
+
+### perception_oru - 1.0.12-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro hydro --track hydro perception_oru` on `Tue, 03 Dec 2013 16:04:14 -0000`
 
@@ -26,7 +49,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.11-0
+### perception_oru - 1.0.11-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Tue, 03 Dec 2013 15:50:37 -0000`
 
@@ -54,7 +77,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.11-0
+### perception_oru - 1.0.11-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro hydro --track hydro -n -e perception_oru` on `Tue, 03 Dec 2013 10:05:07 -0000`
 
@@ -81,7 +104,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.9-0
+### perception_oru - 1.0.9-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Tue, 03 Dec 2013 09:28:03 -0000`
 
@@ -108,7 +131,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.8-0
+### perception_oru - 1.0.8-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Mon, 02 Dec 2013 09:16:10 -0000`
 
@@ -135,7 +158,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.7-2
+### perception_oru - 1.0.7-2
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Fri, 29 Nov 2013 08:50:41 -0000`
 
@@ -162,7 +185,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.7-1
+### perception_oru - 1.0.7-1
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Fri, 29 Nov 2013 08:44:26 -0000`
 
@@ -189,7 +212,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.7-0
+### perception_oru - 1.0.7-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Thu, 28 Nov 2013 15:31:19 -0000`
 
@@ -216,7 +239,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.6-0
+### perception_oru - 1.0.6-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Wed, 27 Nov 2013 19:16:43 -0000`
 
@@ -243,7 +266,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.5-0
+### perception_oru - 1.0.5-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Wed, 27 Nov 2013 18:56:57 -0000`
 
@@ -270,7 +293,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.4-0
+### perception_oru - 1.0.4-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Wed, 27 Nov 2013 18:44:05 -0000`
 
@@ -297,7 +320,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.3-0
+### perception_oru - 1.0.3-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Wed, 27 Nov 2013 18:30:34 -0000`
 
@@ -324,7 +347,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.2-2
+### perception_oru - 1.0.2-2
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Wed, 27 Nov 2013 18:15:27 -0000`
 
@@ -351,7 +374,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.2-1
+### perception_oru - 1.0.2-1
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru` on `Wed, 27 Nov 2013 17:48:44 -0000`
 
@@ -378,7 +401,7 @@ Versions of tools used:
 - vcstools version: `0.1.32`
 
 
-## perception_oru - 1.0.2-0
+### perception_oru - 1.0.2-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro groovy --track groovy perception_oru --edit` on `Wed, 27 Nov 2013 13:03:05 -0000`
 
