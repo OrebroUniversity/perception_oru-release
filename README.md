@@ -1,3 +1,26 @@
+# Perception ORU
+
+## Instructions
+
+Clone the repository e.g
+
+```Shell
+git clone https://github.com/tstoyanov/perception_oru-release.git
+```
+
+Then, depending on which ros version you are using, check out the release with the relevant tags using either
+```Shell
+git checkout tags/release-groovy-source
+```
+or
+
+```Shell
+git checkout tags/release-hydro-source
+```
+
+## History
+
+
 ## perception_oru - 1.0.12-0
 
 User `tsv@tsv-laptop` released the packages in the `perception_oru` repository by running `/usr/bin/bloom-release --rosdistro hydro --track hydro perception_oru` on `Tue, 03 Dec 2013 16:04:14 -0000`
