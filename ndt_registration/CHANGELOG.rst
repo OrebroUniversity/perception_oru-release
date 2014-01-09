@@ -2,6 +2,18 @@
 Changelog for package ndt_registration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.13 (2014-01-09)
+-------------------
+* "1.0.12"
+* changelogs
+* fixes to cmake files
+* Contributors: Todor Stoyanov
+
+1.0.12 (2014-01-09)
+-------------------
+* fixes to cmake files
+* Contributors: Todor Stoyanov
+
 1.0.11 (2013-12-03)
 -------------------
 
