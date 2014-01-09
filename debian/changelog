@@ -1,0 +1,57 @@
+ros-groovy-ndt-registration (1.0.13-0oneiric) oneiric; urgency=high
+
+  * "1.0.12"
+  * changelogs
+  * fixes to cmake files
+  * Contributors: Todor Stoyanov
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 08 Jan 2014 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.12-0oneiric) oneiric; urgency=high
+
+  * fixes to cmake files
+  * Contributors: Todor Stoyanov
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 08 Jan 2014 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.11-0oneiric) oneiric; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Mon, 02 Dec 2013 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.9-0oneiric) oneiric; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Mon, 02 Dec 2013 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.8-0oneiric) oneiric; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Sun, 01 Dec 2013 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.7-0oneiric) oneiric; urgency=high
+
+  * Added release flags to all CMake files
+  * Re-organization of include files to follow ros convention, lots of changes
+  * Contributors: Todor Stoyanov
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.3-0oneiric) oneiric; urgency=high
+
+  * CMake files fixed to output in the correct place
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Tue, 26 Nov 2013 23:00:00 -0000
+
+ros-groovy-ndt-registration (1.0.1-0oneiric) oneiric; urgency=high
+
+  * moved from rosbuild to catkin
+  * Contributors: Todor Stoyanov, Tomasz Kuncer
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Tue, 26 Nov 2013 23:00:00 -0000
+
+
