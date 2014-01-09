@@ -1,0 +1,12 @@
+Source: ros-hydro-ndt-map-builder
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libpcl-1.7-all-dev, ros-hydro-catkin, ros-hydro-ndt-map, ros-hydro-ndt-registration, ros-hydro-pcl-ros, ros-hydro-pointcloud-vrml
+Homepage: http://ros.org/wiki/ndt_map_builder
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ndt-map-builder
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all-dev, ros-hydro-ndt-map, ros-hydro-ndt-registration, ros-hydro-pcl-ros, ros-hydro-pointcloud-vrml
+Description: ndt_map_builder
