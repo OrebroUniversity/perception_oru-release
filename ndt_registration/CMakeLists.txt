@@ -5,9 +5,9 @@ set(CMAKE_BUILD_TYPE Release)
 project(ndt_registration)
 # Load catkin and all dependencies required for this package
 # TODO: remove all from COMPONENTS that are not catkin packages.
-find_package(catkin REQUIRED COMPONENTS pcl pcl_ros ndt_map pointcloud_vrml tf tf_conversions)
+find_package(catkin REQUIRED COMPONENTS ndt_map pointcloud_vrml tf tf_conversions pcl_ros)
 catkin_package(
-    DEPENDS eigen pcl
+    DEPENDS eigen 
     CATKIN_DEPENDS ndt_map pointcloud_vrml tf tf_conversions pcl_ros
     INCLUDE_DIRS include
     LIBRARIES # TODO

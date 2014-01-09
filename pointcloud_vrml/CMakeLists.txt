@@ -4,9 +4,9 @@ cmake_minimum_required(VERSION 2.8.3)
 set(CMAKE_BUILD_TYPE Release) 
 project(pointcloud_vrml)
 # Load catkin and all dependencies required for this package
-find_package(catkin REQUIRED COMPONENTS rosconsole pcl pcl_ros tf nav_msgs eigen)
+find_package(catkin REQUIRED COMPONENTS rosconsole pcl_ros tf nav_msgs eigen)
 catkin_package(
-    DEPENDS pcl eigen
+    DEPENDS eigen
     CATKIN_DEPENDS rosconsole pcl_ros tf nav_msgs
     INCLUDE_DIRS include
     LIBRARIES 
@@ -23,7 +23,7 @@ catkin_package(
   # TODO: List your msg files here
 #)
 
-include_directories(${EIGEN_INCLUDE_DIRS}  ${catkin_INCLUDE_DIRS}  include)
+include_directories(${EIGEN_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS}  include)
 add_definitions(${EIGEN_DEFINITIONS})
 
 add_executable(vrml_reader src/pointcloud_reader_node.cc)

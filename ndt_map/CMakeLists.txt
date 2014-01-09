@@ -4,9 +4,10 @@ cmake_minimum_required(VERSION 2.8.3)
 set(CMAKE_BUILD_TYPE Release) 
 project(ndt_map)
 # Load catkin and all dependencies required for this package
-find_package(catkin REQUIRED COMPONENTS pcl pcl_ros pointcloud_vrml cv_bridge eigen )
+find_package(catkin REQUIRED COMPONENTS pcl_ros pointcloud_vrml cv_bridge eigen )
+
 catkin_package(
-    DEPENDS pcl eigen opencv2
+    DEPENDS eigen opencv2
     CATKIN_DEPENDS pcl_ros pointcloud_vrml cv_bridge 
     INCLUDE_DIRS include
     LIBRARIES # ${PROJECT_NAME}

@@ -7,7 +7,7 @@ project(ndt_visualisation)
 find_package(catkin REQUIRED COMPONENTS ndt_map pcl_ros)
 catkin_package(
     DEPENDS common_rosdeps pcl eigen mrpt glut libxmu-dev
-    CATKIN_DEPENDS ndt_map pcl_ros 
+    CATKIN_DEPENDS ndt_map pcl_ros
     INCLUDE_DIRS include
     LIBRARIES ndt_visualisation
 )
