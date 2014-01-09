@@ -1,12 +1,11 @@
 <package>
   <name>perception_oru</name>
-  <version>1.0.12</version>
+  <version>1.0.13</version>
   <description>Perception packages from the MRO lab at AASS, Orebro University</description>
   <maintainer email="jari.p.saarinen@gmail.com">Jari Saarinen</maintainer> 
   <maintainer email="todor.stoyanov@oru.se">Todor Stoyanov</maintainer>
   <maintainer email="henrik.andreasson@oru.se">Henrik Andreasson</maintainer>
   <maintainer email="daniel.canelhas@oru.se">Daniel Canelhas</maintainer>
-  <maintainer email="tomasz.kucner@oru.se">Tomasz Kucner</maintainer>
 
   <license>BSD</license>
 
