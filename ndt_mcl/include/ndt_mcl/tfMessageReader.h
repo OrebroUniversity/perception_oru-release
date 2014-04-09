@@ -7,8 +7,7 @@
 #include <tf/message_filter.h>
 #include <string>
 #include <vector>
-//#include <pcl/ros/conversions.h> deprecated
-#include <pcl/conversions.h>
+#include <pcl/ros/conversions.h>
 
 template<typename MessageType>
 class tfMessageReader

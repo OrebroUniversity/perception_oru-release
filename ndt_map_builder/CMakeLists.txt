@@ -7,7 +7,7 @@ project(ndt_map_builder)
 find_package(catkin REQUIRED COMPONENTS pcl_ros pointcloud_vrml ndt_map ndt_registration)
 
 catkin_package(
-    DEPENDS libpcl-all-dev eigen
+    DEPENDS pcl eigen
     CATKIN_DEPENDS pcl_ros pointcloud_vrml ndt_map ndt_registration
     INCLUDE_DIRS include
     LIBRARIES # TODO
@@ -24,10 +24,6 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 #  FILES
   # TODO: List your msg files here
 #)
-
-find_package(OpenMP)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
 
 add_executable(test_ndt_mapper test/test_ndt_mapper.cc)
 target_link_libraries(test_ndt_mapper ${catkin_LIBRARIES})

@@ -7,7 +7,7 @@ project(ndt_mcl)
 find_package(catkin REQUIRED COMPONENTS ndt_visualisation rosbag tf nav_msgs sensor_msgs geometry_msgs message_filters ndt_map ndt_registration pointcloud_vrml visualization_msgs)
 
 catkin_package(
-    DEPENDS libpcl-all-dev eigen mrpt
+    DEPENDS pcl eigen mrpt
     CATKIN_DEPENDS ndt_visualisation rosbag tf nav_msgs sensor_msgs geometry_msgs message_filters ndt_map ndt_registration pointcloud_vrml visualization_msgs
     INCLUDE_DIRS #include
     LIBRARIES # TODO
@@ -17,9 +17,11 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 #find_package(Eigen REQUIRED)
 #include_directories(${EIGEN_INCLUDE_DIRS})
 add_definitions(${EIGEN_DEFINITIONS})
+
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(JPEG REQUIRED)
+FIND_PACKAGE(MRPT REQUIRED gui;base;opengl)
 include_directories(${JPEG_INCLUDE_DIR})
 include_directories(${GLUT_INCLUDE_DIR})
 include_directories(${OPENGL_INCLUDE_DIR})

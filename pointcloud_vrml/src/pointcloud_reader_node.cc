@@ -4,8 +4,6 @@
 #include <tf/transform_broadcaster.h>
 #include "pcl/io/pcd_io.h"
 #include <pointcloud_vrml/pointcloud_utils.h>
-#include <sensor_msgs/PointCloud2.h>
-#include <pcl_conversions/pcl_conversions.h>
 
 int
 main (int argc, char** argv)

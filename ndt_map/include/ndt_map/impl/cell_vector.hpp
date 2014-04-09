@@ -1,5 +1,4 @@
 #include <climits>
-#include <pcl/common/distances.h>
 namespace lslgeneric
 {
 template <typename PointT>
