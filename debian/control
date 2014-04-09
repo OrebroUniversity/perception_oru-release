@@ -1,0 +1,12 @@
+Source: ros-groovy-ndt-map
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-cv-bridge, ros-groovy-opencv2, ros-groovy-pcl, ros-groovy-pcl-ros, ros-groovy-pointcloud-vrml
+Homepage: http://ros.org/wiki/ndt_map
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ndt-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-cv-bridge, ros-groovy-opencv2, ros-groovy-pcl, ros-groovy-pcl-ros, ros-groovy-pointcloud-vrml
+Description: Contains the definitions of the 3D Normal Distributions Transform data structures, used for mapping, registration, etc.
