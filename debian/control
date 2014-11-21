@@ -1,0 +1,12 @@
+Source: ros-hydro-ndt-feature-reg
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all-dev, ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-image-geometry, ros-hydro-laser-geometry, ros-hydro-ndt-map, ros-hydro-ndt-registration, ros-hydro-ndt-visualisation, ros-hydro-sensor-msgs, ros-hydro-std-srvs
+Homepage: http://ros.org/wiki/ndt_feature_reg
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ndt-feature-reg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all-dev, ros-hydro-cv-bridge, ros-hydro-image-geometry, ros-hydro-laser-geometry, ros-hydro-ndt-map, ros-hydro-ndt-registration, ros-hydro-ndt-visualisation, ros-hydro-sensor-msgs, ros-hydro-std-srvs
+Description: ndt_feature_reg
