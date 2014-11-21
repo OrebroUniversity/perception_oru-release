@@ -2,6 +2,11 @@
 Changelog for package perception_oru
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.20 (2014-11-21)
+-------------------
+* removed package pointcloud_vrml, added new packages
+* Contributors: Todor Stoyanov, Tomasz Kucner
+
 1.0.18 (2014-04-09)
 -------------------
 
