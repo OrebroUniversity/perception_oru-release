@@ -1,6 +1,6 @@
 <package>
   <name>ndt_fuser</name>
-  <version>1.0.18</version>
+  <version>1.0.22</version>
   <description>ndt_fuser</description>
 <maintainer email="jari.p.saarinen@gmail.com">Jari Saarinen</maintainer>
 <maintainer email="todor.stoyanov@oru.se">Todor Stoyanov</maintainer>
@@ -35,7 +35,7 @@
   <run_depend>std_srvs</run_depend>
   <run_depend>ndt_visualisation</run_depend>
   <run_depend>libpcl-all-dev</run_depend>
-
+  <run_depend>message_runtime</run_depend>
   <!-- Dependencies needed only for running tests. -->
   <!-- <test_depend>ndt_registration</test_depend> -->
   <!-- <test_depend>ndt_map</test_depend> -->

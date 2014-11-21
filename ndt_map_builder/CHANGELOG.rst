@@ -2,6 +2,11 @@
 Changelog for package ndt_map_builder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.20 (2014-11-21)
+-------------------
+* ndt_map_builder and ndt_histogram update
+* Contributors: Todor Stoyanov, Tomasz Kucner
+
 1.0.18 (2014-04-09)
 -------------------
 
