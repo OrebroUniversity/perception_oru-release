@@ -209,7 +209,7 @@ void  CMyEllipsoid::readFromStream(CStream &in,int version)
 			// Update cov. matrix cache:
 			m_prevComputedCov = m_cov;
 			m_cov.eigenVectors(m_eigVec,m_eigVal);
-			m_eigVal.Sqrt();
+			m_eigVal = m_eigVal.cwiseSqrt();
 
 		} break;
 	default:
@@ -231,8 +231,8 @@ bool quickSolveEqn(double a,double b_2,double c,double &t)	{
 bool CMyEllipsoid::traceRay(const mrpt::poses::CPose3D &o,double &dist) const	{
 	if (m_cov.getRowCount()!=3) return false;
 	TLine3D lin,lin2;
-	createFromPoseX(o-this->getPose(),lin);
 	//createFromPoseX(o-this->m_pose,lin);
+	createFromPoseX(o-this->getPose(),lin);
 	lin.unitarize();	//By adding this line, distance from any point of the line to its base is exactly equal to the "t".
 	for (size_t i=0;i<3;i++)	{
 		lin2.pBase[i]=0;
@@ -283,7 +283,7 @@ void CMyEllipsoid::setCovMatrix( const mrpt::math::CMatrixDouble &m, int resizeT
 		// Not null matrix: compute the eigen-vectors & values:
 		m_prevComputedCov = m_cov;
 		m_cov.eigenVectors(m_eigVec,m_eigVal);
-		m_eigVal.Sqrt();
+		m_eigVal = m_eigVal.cwiseSqrt();
 		// Do the scale at render to avoid recomputing the m_eigVal for different m_quantiles
 	}
 

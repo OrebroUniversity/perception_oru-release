@@ -2,21 +2,25 @@
 Changelog for package sdf_tracker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.19 (2014-04-09)
+1.0.20 (2014-11-21)
 -------------------
-* fixes for backward compatibility to VTK5 and forward compatibility to new ubuntu releases
+* fixing problems with compatibility
 * Contributors: Todor Stoyanov
+
+1.0.18 (2014-04-09)
+-------------------
+* fixes for backward support and compatibility on new ubuntu versions
+* Contributors: Todor Stoyanov
+
+1.0.15 (2014-01-09)
+-------------------
 
 1.0.13 (2014-01-09)
 -------------------
-* "1.0.12"
-* changelogs
+* trying to add backward compatibility for rosbuild
 * Contributors: Todor Stoyanov
 
-1.0.12 (2014-01-09)
+1.0.12 (2013-12-03)
 -------------------
-
-1.0.11 (2013-12-03)
--------------------
-* Added catkinized version for sdf tracker, experimental
+* Added catkinized sdf tracker in hydro
 * Contributors: Todor Stoyanov

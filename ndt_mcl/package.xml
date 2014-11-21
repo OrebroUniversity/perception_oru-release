@@ -1,21 +1,22 @@
 <package>
   <name>ndt_mcl</name>
-  <version>1.0.19</version>
+  <version>1.0.22</version>
   <description>ndt_mcl</description>
   <maintainer email="jari.p.saarinen@gmail.com">Jari Saarinen</maintainer>
-<maintainer email="todor.stoyanov@oru.se">Todor Stoyanov</maintainer>
-<maintainer email="henrik.andreasson@oru.se">Henrik Andreasson</maintainer>
-
+  <maintainer email="todor.stoyanov@oru.se">Todor Stoyanov</maintainer>
+  <maintainer email="henrik.andreasson@oru.se">Henrik Andreasson</maintainer>
+  <maintainer email="tomasz.kucner@oru.se">Tomasz Kucner</maintainer>
+  
   <license>BSD</license>
-
+  
   <url type="website">http://ros.org/wiki/ndt_mcl</url>
   <!-- <url type="bugtracker"></url> -->
-
+  
   <author>Jari Saarinen</author>
-
+  
   <!-- Dependencies which this package needs to build itself. -->
   <buildtool_depend>catkin</buildtool_depend>
-
+  
   <!-- Dependencies needed to compile this package. -->
   <build_depend>ndt_visualisation</build_depend>
   <build_depend>rosbag</build_depend>
@@ -24,10 +25,9 @@
   <build_depend>sensor_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>message_filters</build_depend>
-  <build_depend>pcl</build_depend>
+  <build_depend>libpcl-all-dev</build_depend>
   <build_depend>ndt_map</build_depend>
   <build_depend>ndt_registration</build_depend>
-  <build_depend>pointcloud_vrml</build_depend>
   <build_depend>visualization_msgs</build_depend>
   <build_depend>mrpt</build_depend>
   <build_depend>glut</build_depend>
@@ -41,10 +41,9 @@
   <run_depend>sensor_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>message_filters</run_depend>
-  <run_depend>pcl</run_depend>
+  <run_depend>libpcl-all-dev</run_depend>
   <run_depend>ndt_map</run_depend>
   <run_depend>ndt_registration</run_depend>
-  <run_depend>pointcloud_vrml</run_depend>
   <run_depend>visualization_msgs</run_depend>
   <run_depend>mrpt</run_depend>
   <run_depend>glut</run_depend>
@@ -61,7 +60,6 @@
   <!-- <test_depend>pcl</test_depend> -->
   <!-- <test_depend>ndt_map</test_depend> -->
   <!-- <test_depend>ndt_registration</test_depend> -->
-  <!-- <test_depend>pointcloud_vrml</test_depend> -->
   <!-- <test_depend>visualization_msgs</test_depend> -->
 
 <!--export>

@@ -7,11 +7,13 @@
 #include <tf/message_filter.h>
 #include <string>
 #include <vector>
-#include <pcl/ros/conversions.h>
+//#include <pcl/ros/conversions.h> deprecated
+#include <pcl/conversions.h>
 
 template<typename MessageType>
 class tfMessageReader
 {
+
 	public:
 		/**
 		* Open @bagfilename, subscribe to topic @message_topic_ use tf target_linkname_, which is fixed to fixed_link_
