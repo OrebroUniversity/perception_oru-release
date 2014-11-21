@@ -36,6 +36,7 @@
 #define NDT_MATCHER_HH
 
 #include "ndt_map/ndt_map.h"
+#include "ndt_map/pointcloud_utils.h"
 #include "pcl/point_cloud.h"
 #include "Eigen/Core"
 
@@ -45,7 +46,6 @@ namespace lslgeneric
 /**
  * This class implements NDT registration for 3D point cloud scans.
  */
-template <typename PointSource, typename PointTarget>
 class NDTMatcherP2D
 {
 public:
@@ -57,10 +57,11 @@ public:
     {
         this->init(true,std::vector<double>());
     }
-    NDTMatcherP2D(const NDTMatcherP2D<PointSource,PointTarget>& other)
+    NDTMatcherP2D(const NDTMatcherP2D& other)
     {
         this->init(false,other.resolutions);
     }
+
     /**
      * Register two point clouds. This method builds an NDT
      * representation of the "fixed" point cloud and uses that for
@@ -73,11 +74,34 @@ public:
      *   This is an input/output parameter. The initial value of \c T
      *   gives the initial pose estimate of \c moving. When the
      *   algorithm terminates, \c T holds the registration result.
+     * \return
+     *   False if registration terminated after the max number of
+     *   iterations (before convergence), true if registration
+     *   terminated because the convergence criteria were fulfilled.
      */
-    bool match( pcl::PointCloud<PointTarget>& target,
-                pcl::PointCloud<PointSource>& source,
+    bool match( pcl::PointCloud<pcl::PointXYZ>& target,
+                pcl::PointCloud<pcl::PointXYZ>& source,
                 Eigen::Transform<double,3,Eigen::Affine,Eigen::ColMajor>& T );
 
+
+  /** 
+   * Check whether two point clouds are aligned, using the NDT score and Hessian.
+   * 
+   * \param  fixed
+   *   Reference data. NDT structure is built for this point cloud (if needed).
+   * \param  moving
+   *   \c T will be applied to this point cloud.
+   * \param T 
+   *   Optional transformation that can be applied to \c moving. Defaults to zero.
+   * \return 
+   */
+  void check( pcl::PointCloud<pcl::PointXYZ>& fixed,
+              pcl::PointCloud<pcl::PointXYZ>& moving,
+              Eigen::Transform<double,3,Eigen::Affine,Eigen::ColMajor>& T
+              //= Eigen::Translation3f( 0.0, 0.0, 0.0 ) * Eigen::AngleAxisf( 0.0, Eigen::Vector3d( 1.0, 0.0, 0.0 ) )
+              );
+  
+  
     /**
      * Registers a point cloud to an NDT structure.
      * \param  fixed
@@ -88,38 +112,45 @@ public:
      *   This is an input/output parameter. The initial value of \c T
      *   gives the initial pose estimate of \c moving. When the
      *   algorithm terminates, \c T holds the registration result.
+     * \return
+     *   False if registration terminated after the max number of
+     *   iterations (before convergence), true if registration
+     *   terminated because the convergence criteria were fulfilled.
      */
-    bool match( NDTMap<PointTarget>& target,
-                pcl::PointCloud<PointSource>& source,
+    bool match( NDTMap& target,
+                pcl::PointCloud<pcl::PointXYZ>& source,
                 Eigen::Transform<double,3,Eigen::Affine,Eigen::ColMajor>& T );
 
+
+
+  
     /**
       * computes the covariance of the match between moving and fixed, at T.
       * note --- computes NDT distributions based on the resolution in res
       * result is returned in cov
       */
-    bool covariance( pcl::PointCloud<PointTarget>& target,
-                     pcl::PointCloud<PointSource>& source,
+    bool covariance( pcl::PointCloud<pcl::PointXYZ>& target,
+                     pcl::PointCloud<pcl::PointXYZ>& source,
                      Eigen::Transform<double,3,Eigen::Affine,Eigen::ColMajor>& T,
                      Eigen::Matrix<double,6,6> &cov
                    );
 
     //compute the score of a point cloud to an NDT
-    double scorePointCloud(pcl::PointCloud<PointSource> &source,
-                           NDTMap<PointTarget> &target);
+    double scorePointCloud(pcl::PointCloud<pcl::PointXYZ> &source,
+                           NDTMap &target);
 
     //compute the score gradient & hessian of a point cloud + transformation to an NDT
     // input: moving, fixed, tr, computeHessian
     //output: score_gradient, Hessian
-    void derivativesPointCloud(pcl::PointCloud<PointSource> &source,
-                               NDTMap<PointTarget> &target,
+    void derivativesPointCloud(pcl::PointCloud<pcl::PointXYZ> &source,
+                               NDTMap &target,
                                Eigen::Transform<double,3,Eigen::Affine,Eigen::ColMajor> &transform,
                                Eigen::Matrix<double,6,1> &score_gradient,
                                Eigen::Matrix<double,6,6> &Hessian,
                                bool computeHessian);
 
-    void generateScoreDebug(const char* out, pcl::PointCloud<PointTarget>& target,
-                            pcl::PointCloud<PointSource>& source);
+    void generateScoreDebug(const char* out, pcl::PointCloud<pcl::PointXYZ>& target,
+                            pcl::PointCloud<pcl::PointXYZ>& source);
 
     double finalscore;
 private:
@@ -145,22 +176,22 @@ private:
                         Eigen::Matrix3d &Cinv);
 
     //pre-computes the derivative matrices Jest and Hest
-    void computeDerivatives(PointSource &pt);
+    void computeDerivatives(pcl::PointXYZ &pt);
 
     //perform line search to find the best descent rate (naive case)
     double lineSearch(double score_here,
                       Eigen::Matrix<double,6,1> &score_gradient,
                       Eigen::Matrix<double,6,1> &increment,
-                      pcl::PointCloud<PointSource> &source,
-                      NDTMap<PointTarget> &target) ;
+                      pcl::PointCloud<pcl::PointXYZ> &source,
+                      NDTMap &target) ;
 
     //perform line search to find the best descent rate (Mohre&Thuente)
     //adapted from NOX
     double lineSearchMT( Eigen::Matrix<double,6,1> &score_gradient_init,
                          Eigen::Matrix<double,6,1> &increment,
-                         pcl::PointCloud<PointSource> &source,
+                         pcl::PointCloud<pcl::PointXYZ> &source,
                          Eigen::Transform<double,3,Eigen::Affine,Eigen::ColMajor> &globalT,
-                         NDTMap<PointTarget> &target) ;
+                         NDTMap &target) ;
 
     //compute finited difference derivative, for debug
     /*
@@ -182,7 +213,7 @@ private:
     }; //end MoreThuente
 
     //perform a subsampling depending on user choice
-    pcl::PointCloud<PointSource> subsample(pcl::PointCloud<PointSource>& original);
+    pcl::PointCloud<pcl::PointXYZ> subsample(pcl::PointCloud<pcl::PointXYZ>& original);
     int NUMBER_OF_POINTS;
     int NUMBER_OF_ACTIVE_CELLS;
 
@@ -196,11 +227,11 @@ private:
     void init(bool useDefaultGridResolutions, std::vector<double> _resolutions);
     double normalizeAngle(double a);
 public:
+    int ITR_MAX;
+    double subsample_size;
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW
 };
 
 } // end namespace
-
-#include <ndt_registration/impl/ndt_matcher_p2d.hpp>
 
 #endif
