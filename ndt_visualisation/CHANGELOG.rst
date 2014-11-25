@@ -2,6 +2,9 @@
 Changelog for package ndt_visualisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.23 (2014-11-25)
+-------------------
+
 1.0.20 (2014-11-21)
 -------------------
 * removing mrpt dependency
