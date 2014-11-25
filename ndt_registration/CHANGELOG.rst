@@ -2,6 +2,11 @@
 Changelog for package ndt_registration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.24 (2014-11-25)
+-------------------
+* small fix with install targets
+* Contributors: Todor Stoyanov
+
 1.0.23 (2014-11-25)
 -------------------
 
