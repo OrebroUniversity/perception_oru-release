@@ -2,6 +2,11 @@
 Changelog for package ndt_map
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.23 (2014-11-25)
+-------------------
+* fix of nav_msgs bug
+* Contributors: Todor Stoyanov
+
 1.0.20 (2014-11-21)
 -------------------
 * refactored ndt map
