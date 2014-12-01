@@ -1,0 +1,12 @@
+Source: ros-hydro-ndt-map
+Section: misc
+Priority: extra
+Maintainer: Jari Saarinen <jari.p.saarinen@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-1.7-all-dev, ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-opencv2, ros-hydro-pcl-conversions, ros-hydro-pcl-ros, ros-hydro-roscpp
+Homepage: http://ros.org/wiki/ndt_map
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ndt-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, ros-hydro-cv-bridge, ros-hydro-message-runtime, ros-hydro-nav-msgs, ros-hydro-opencv2, ros-hydro-pcl-conversions, ros-hydro-pcl-ros, ros-hydro-roscpp
+Description: Contains the definitions of the 3D Normal Distributions Transform data structures, used for mapping, registration, etc.
