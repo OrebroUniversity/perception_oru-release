@@ -2,6 +2,9 @@
 Changelog for package ndt_registration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.25 (2014-12-01)
+-------------------
+
 1.0.24 (2014-11-25)
 -------------------
 * small fix with install targets
