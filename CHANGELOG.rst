@@ -2,6 +2,11 @@
 Changelog for package ndt_visualisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.26 (2014-12-03)
+-------------------
+* small fix to package.xmls and an update of visualization
+* Contributors: Todor Stoyanov
+
 1.0.25 (2014-12-01)
 -------------------
 
