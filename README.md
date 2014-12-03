@@ -1,3 +1,35 @@
+## perception_oru (hydro) - 1.0.26-0
+
+The packages in the `perception_oru` repository were released into the `hydro` distro by running `/usr/bin/bloom-release perception_oru --track hydro --rosdistro hydro` on `Wed, 03 Dec 2014 11:07:29 -0000`
+
+These packages were released:
+- `ndt_costmap`
+- `ndt_feature_reg`
+- `ndt_fuser`
+- `ndt_map`
+- `ndt_map_builder`
+- `ndt_mcl`
+- `ndt_registration`
+- `ndt_rviz_visualisation`
+- `ndt_visualisation`
+- `perception_oru`
+- `sdf_tracker`
+
+Version of package(s) in repository `perception_oru`:
+- upstream repository: /home/tsv/code/workspace-hydro/src/perception_oru
+- release repository: https://github.com/tstoyanov/perception_oru-release.git
+- rosdistro version: `1.0.25-0`
+- old version: `1.0.25-0`
+- new version: `1.0.26-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## perception_oru (hydro) - 1.0.25-0
 
 The packages in the `perception_oru` repository were released into the `hydro` distro by running `/usr/bin/bloom-release perception_oru --track hydro --rosdistro hydro` on `Mon, 01 Dec 2014 16:46:46 -0000`
