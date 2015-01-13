@@ -6,7 +6,8 @@ project(sdf_tracker)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 
-find_package(catkin REQUIRED COMPONENTS roscpp std_msgs cv_bridge eigen)
+find_package(catkin REQUIRED COMPONENTS roscpp std_msgs cv_bridge cmake_modules)
+find_package(Eigen REQUIRED)
 
 catkin_package(
     DEPENDS eigen opencv2 libvtk

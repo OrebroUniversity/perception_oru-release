@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 2.8.3)
 set(CMAKE_BUILD_TYPE Release) 
 project(ndt_mcl)
 # Load catkin and all dependencies required for this package
-find_package(catkin REQUIRED COMPONENTS ndt_visualisation rosbag tf nav_msgs sensor_msgs geometry_msgs message_filters ndt_map ndt_registration visualization_msgs)
+find_package(catkin REQUIRED COMPONENTS ndt_visualisation rosbag tf nav_msgs sensor_msgs geometry_msgs message_filters ndt_map ndt_registration visualization_msgs cmake_modules)
 
 catkin_package(
     DEPENDS libpcl-all-dev eigen mrpt
@@ -14,8 +14,8 @@ catkin_package(
 )
 include_directories(include ${catkin_INCLUDE_DIRS})
 
-#find_package(Eigen REQUIRED)
-#include_directories(${EIGEN_INCLUDE_DIRS})
+find_package(Eigen REQUIRED)
+include_directories(${EIGEN_INCLUDE_DIRS})
 add_definitions(${EIGEN_DEFINITIONS})
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
