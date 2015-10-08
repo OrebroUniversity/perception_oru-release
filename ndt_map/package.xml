@@ -1,6 +1,6 @@
 <package>
   <name>ndt_map</name>
-  <version>1.0.28</version>
+  <version>1.0.29</version>
   <description>Contains the definitions of the 3D Normal Distributions Transform data structures, 
      used for mapping, registration, etc.</description>
   <maintainer email="jari.p.saarinen@gmail.com">Jari Saarinen</maintainer>
@@ -23,10 +23,10 @@
   <!-- Dependencies needed to compile this package. -->
   <build_depend>libpcl-all-dev</build_depend>
   <build_depend>roscpp</build_depend>
+  <build_depend>cmake_modules</build_depend>
   <build_depend>eigen</build_depend>
   <build_depend>pcl_ros</build_depend>
   <build_depend>pcl_conversions</build_depend>
-  <build_depend>opencv2</build_depend>
   <build_depend>cv_bridge</build_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>nav_msgs</build_depend>
@@ -36,7 +36,6 @@
   <run_depend>roscpp</run_depend>
   <run_depend>pcl_ros</run_depend>
   <run_depend>pcl_conversions</run_depend>
-  <run_depend>opencv2</run_depend>
   <run_depend>cv_bridge</run_depend>
   <run_depend>message_runtime</run_depend>
   <run_depend>nav_msgs</run_depend>
