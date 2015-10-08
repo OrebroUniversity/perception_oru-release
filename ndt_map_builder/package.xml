@@ -1,6 +1,6 @@
 <package>
   <name>ndt_map_builder</name>
-  <version>1.0.28</version>
+  <version>1.0.29</version>
   <description>ndt_map_builder</description>
 <maintainer email="jari.p.saarinen@gmail.com">Jari Saarinen</maintainer>
 <maintainer email="todor.stoyanov@oru.se">Todor Stoyanov</maintainer>
@@ -19,6 +19,8 @@
 
   <!-- Dependencies needed to compile this package. -->
   <!--<build_depend>common_rosdeps</build_depend>-->
+  
+  <build_depend>cmake_modules</build_depend>
   <build_depend>libpcl-all-dev</build_depend>
   <build_depend>pcl_ros</build_depend>
   <build_depend>pcl_conversions</build_depend>
