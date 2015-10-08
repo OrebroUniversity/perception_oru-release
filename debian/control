@@ -1,0 +1,12 @@
+Source: ros-indigo-sdf-tracker
+Section: misc
+Priority: extra
+Maintainer: Daniel Canelhas <daniel.canelhas@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libvtk5-dev, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-cv-bridge, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-sdf-tracker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libvtk5-dev, ros-indigo-cv-bridge, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The sdf_tracker package
