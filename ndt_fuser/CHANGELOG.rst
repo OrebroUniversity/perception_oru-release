@@ -2,6 +2,11 @@
 Changelog for package ndt_fuser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.29 (2015-10-08)
+-------------------
+*major code refactoring
+* Contributors: Todor Stoyanov
+
 1.0.28 (2014-12-05)
 -------------------
 
