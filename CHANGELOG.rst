@@ -2,6 +2,9 @@
 Changelog for package ndt_visualisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.30 (2015-10-09)
+-------------------
+
 1.0.29 (2015-10-08)
 -------------------
 * Fixed transform error in the orbit camera.
