@@ -1,0 +1,12 @@
+Source: ros-indigo-ndt-rviz-visualisation
+Section: misc
+Priority: extra
+Maintainer: maw <maw@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-rviz
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ndt-rviz-visualisation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rviz
+Description: The ndt_rviz_visualisation package
