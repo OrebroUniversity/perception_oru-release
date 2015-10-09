@@ -1,0 +1,173 @@
+ros-indigo-ndt-costmap (1.0.30-0trusty) trusty; urgency=high
+
+  * added opengl explicit reference
+  * Contributors: Todor Stoyanov
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 08 Oct 2015 22:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.29-0trusty) trusty; urgency=high
+
+  * removed outdated opencv2 dependency
+  * Contributors: Todor Stoyanov
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 07 Oct 2015 22:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.28-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 04 Dec 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.27-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 04 Dec 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.26-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Tue, 02 Dec 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.25-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Sun, 30 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.24-0trusty) trusty; urgency=high
+
+  * small fix with install targets
+  * Contributors: Todor Stoyanov
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Mon, 24 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.23-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Mon, 24 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.20-0trusty) trusty; urgency=high
+
+  * ndt_costmap package first import. computes a set of traversability maps from a 3D ndt map
+  * Contributors: Todor Stoyanov, Tomasz Kucner
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 20 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.19-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 09 Apr 2014 15:41:00 -0000
+
+ros-indigo-ndt-costmap (1.0.18-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 09 Apr 2014 14:55:00 -0000
+
+ros-indigo-ndt-costmap (1.0.17-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 09 Jan 2014 15:32:00 -0000
+
+ros-indigo-ndt-costmap (1.0.16-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 09 Jan 2014 15:26:00 -0000
+
+ros-indigo-ndt-costmap (1.0.15-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 09 Jan 2014 15:12:00 -0000
+
+ros-indigo-ndt-costmap (1.0.14-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 09 Jan 2014 10:55:00 -0000
+
+ros-indigo-ndt-costmap (1.0.13-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Thu, 09 Jan 2014 10:36:00 -0000
+
+ros-indigo-ndt-costmap (1.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Tue, 03 Dec 2013 15:58:00 -0000
+
+ros-indigo-ndt-costmap (1.0.11-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Tue, 03 Dec 2013 10:01:00 -0000
+
+ros-indigo-ndt-costmap (1.0.10-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Tue, 03 Dec 2013 09:32:00 -0000
+
+ros-indigo-ndt-costmap (1.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Mon, 02 Dec 2013 09:58:00 -0000
+
+ros-indigo-ndt-costmap (1.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Mon, 02 Dec 2013 09:12:00 -0000
+
+ros-indigo-ndt-costmap (1.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 23:00:00 -0000
+
+ros-indigo-ndt-costmap (1.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 19:13:00 -0000
+
+ros-indigo-ndt-costmap (1.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 18:52:00 -0000
+
+ros-indigo-ndt-costmap (1.0.4-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 18:40:00 -0000
+
+ros-indigo-ndt-costmap (1.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 18:26:00 -0000
+
+ros-indigo-ndt-costmap (1.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 12:58:00 -0000
+
+ros-indigo-ndt-costmap (1.0.1-0trusty) trusty; urgency=high
+
+
+
+ -- Todor Stoyanov <todor.stoyanov@oru.se>  Wed, 27 Nov 2013 11:33:00 -0000
+
+
