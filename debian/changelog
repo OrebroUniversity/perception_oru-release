@@ -1,0 +1,173 @@
+ros-indigo-ndt-fuser (1.0.30-0saucy) saucy; urgency=high
+
+  * added opengl explicit reference
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Thu, 08 Oct 2015 22:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.29-0saucy) saucy; urgency=high
+
+  *major code refactoring
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 07 Oct 2015 22:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.28-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Thu, 04 Dec 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.27-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Thu, 04 Dec 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.26-0saucy) saucy; urgency=high
+
+  * small fix to package.xmls and an update of visualization
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Tue, 02 Dec 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.25-0saucy) saucy; urgency=high
+
+  * fixes for imported packages
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Sun, 30 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.24-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Mon, 24 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.23-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Mon, 24 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.20-0saucy) saucy; urgency=high
+
+  * removing mrpt dependency
+  * map messages are now sent
+  * refactored fuser
+  * Contributors: Henrik Andreasson, Martin Magnusson, Todor Stoyanov, Tomasz Kucner
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Thu, 20 Nov 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.18-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Tue, 08 Apr 2014 22:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.15-0saucy) saucy; urgency=high
+
+  * fixes to makefiles wrt pcl
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 08 Jan 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.13-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 08 Jan 2014 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.12-0saucy) saucy; urgency=high
+
+  * Added new install targets for launch files
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Mon, 02 Dec 2013 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.10-0saucy) saucy; urgency=high
+
+
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Mon, 02 Dec 2013 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.9-0saucy) saucy; urgency=high
+
+  * removed deprecated dependancy on mrpt-graphslam
+  * added the empty directory to hold maps in hydro
+  * hydro release
+  * Contributors: Todor Stoyanov, Tomasz Kuncer
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Sun, 01 Dec 2013 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.8-0saucy) saucy; urgency=high
+
+  * "1.0.8"
+  * changelogs updated
+  * Removed legacy dependency to mrpt-graphslam
+  * added the empty directory for maps in groovy
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Sun, 01 Dec 2013 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.7-0saucy) saucy; urgency=high
+
+  * "1.0.7"
+  * changelogs update
+  * Added release flags to all CMake files
+  * Re-organization of include files to follow ros convention, lots of changes
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 23:00:00 -0000
+
+ros-indigo-ndt-fuser (1.0.6-0saucy) saucy; urgency=high
+
+  * "1.0.6"
+  * slight progress, compilation errors now
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 19:13:00 -0000
+
+ros-indigo-ndt-fuser (1.0.5-0saucy) saucy; urgency=high
+
+  * "1.0.5"
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 18:52:00 -0000
+
+ros-indigo-ndt-fuser (1.0.4-0saucy) saucy; urgency=high
+
+  * "1.0.4"
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 18:40:00 -0000
+
+ros-indigo-ndt-fuser (1.0.3-0saucy) saucy; urgency=high
+
+  * "1.0.3"
+  * prepairing for second release candidate
+  * CMake files fixed to output in the correct place
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 18:26:00 -0000
+
+ros-indigo-ndt-fuser (1.0.2-0saucy) saucy; urgency=high
+
+  * "1.0.2"
+  * Contributors: Todor Stoyanov
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 12:58:00 -0000
+
+ros-indigo-ndt-fuser (1.0.1-0saucy) saucy; urgency=high
+
+  * "1.0.1"
+  * added changelog files to stream
+  * removed message gen that was not needed and generating scary warnings
+  * removed the precompiled binaries from the branch. those should not go on the repo
+  * the removal of rosbuild remains
+  * compiled packages ndt_fuser  ndt_map  ndt_map_builder  ndt_mcl  ndt_registration  ndt_visualisation  perception_oru  pointcloud_vrml
+  * Contributors: Todor Stoyanov, Tomasz Kuncer
+
+ -- Jari Saarinen <jari.p.saarinen@gmail.com>  Wed, 27 Nov 2013 11:33:00 -0000
+
+
