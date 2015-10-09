@@ -1,3 +1,35 @@
+## perception_oru (indigo) - 1.0.30-0
+
+The packages in the `perception_oru` repository were released into the `indigo` distro by running `/usr/bin/bloom-release perception_oru --track indigo --ros-distro indigo` on `Fri, 09 Oct 2015 11:22:23 -0000`
+
+These packages were released:
+- `ndt_costmap`
+- `ndt_feature_reg`
+- `ndt_fuser`
+- `ndt_map`
+- `ndt_map_builder`
+- `ndt_mcl`
+- `ndt_registration`
+- `ndt_rviz_visualisation`
+- `ndt_visualisation`
+- `perception_oru`
+- `sdf_tracker`
+
+Version of package(s) in repository `perception_oru`:
+- upstream repository: /home/tsv/code/workspace-perception/src/perception_oru
+- release repository: https://github.com/tstoyanov/perception_oru-release.git
+- rosdistro version: `1.0.29-0`
+- old version: `1.0.29-0`
+- new version: `1.0.30-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## perception_oru (indigo) - 1.0.29-0
 
 The packages in the `perception_oru` repository were released into the `indigo` distro by running `/usr/bin/bloom-release perception_oru --track indigo --ros-distro indigo` on `Thu, 08 Oct 2015 12:14:05 -0000`
