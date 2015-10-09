@@ -1,0 +1,12 @@
+Source: ros-indigo-ndt-registration
+Section: misc
+Priority: extra
+Maintainer: Todor Stoyanov <todor.stoyanov@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all-dev, ros-indigo-catkin, ros-indigo-ndt-map, ros-indigo-pcl-ros, ros-indigo-tf, ros-indigo-tf-conversions
+Homepage: http://ros.org/wiki/ndt_registration
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ndt-registration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all-dev, ros-indigo-ndt-map, ros-indigo-pcl-ros, ros-indigo-tf, ros-indigo-tf-conversions
+Description: Contains a new implementation of 3D NDT registration. Used to find the relative positions of two point clouds.
